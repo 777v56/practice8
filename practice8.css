@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+main {
+  width: 960px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
+.list {
+  margin-bottom: 50px;
+}
+
+.list-text {
+  padding: 20px;
+}
+
+p:nth-child(odd) {
+  background: #d3d3d3;
+}
+
+.list2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 5%;
+}
+
+.box {
+  width: 30%;
+  height: 200px;
+  background: #ffd700;
+}
+
+div:nth-child(1),div:nth-child(9),div:nth-child(5) {
+  background: #ff8c00;
+}
